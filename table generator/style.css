@@ -1,0 +1,80 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+/* Center alignment */
+center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+/* Container styling */
+div {
+    text-align: center;
+}
+
+/* Header and calculator container styling */
+div[style="background-color:grey"] {
+    background-color: #2d2d2d; /* Dark grey for better aesthetics */
+    color: #ffffff; /* White text for contrast */
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+/* Title styling */
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+bold {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Form styling */
+form {
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Results section styling */
+#res {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #333;
+}
